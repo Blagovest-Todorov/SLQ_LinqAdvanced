@@ -20,7 +20,7 @@ namespace EfCoreDemo
 
             db.Database.ExecuteSqlRaw("Update Songs SET ModifiedOn = GETDATE()");
             db.Songs.Where(x => x.Id <= 10);
-           var songs = db.Songs.FromSQLRaw("SELECT * FROM Songs WHERE Id <= 10");
+            var songs = db.Songs.FromSQLRaw("SELECT * FROM Songs WHERE Id <= 10");
         }
     }
 }
