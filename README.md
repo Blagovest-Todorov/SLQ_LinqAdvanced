@@ -1,2 +1,2 @@
-# SLQ_LinqAdvanced
+# SQL_LinqAdvanced
 LinqAdvanced
